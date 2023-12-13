@@ -11,6 +11,9 @@ class post(models.Model):
 
 class secondpost(models.Model):
     ejemplo=models.TextField()    
+
+    def __str__(self):
+        return self.ejemplo 
     
 
 class tercero(models.Model):
@@ -18,6 +21,6 @@ class tercero(models.Model):
     content3=models.TextField()
 
     def __str__(self):
-        return self.title3,self.content3
+        return self.title3
     
     
