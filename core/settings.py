@@ -33,7 +33,18 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core',
     'Appblog',
+    'tailwind',
+    'theme'
 ]
+
+TAILWIND_APP_NAME= 'theme'
+INTERNAL_IPS =[
+"127.0.0.l",
+]
+
+NPM_BIN_PATH = "C:\\Program Files\\nodejs\\npm.cmd"
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
